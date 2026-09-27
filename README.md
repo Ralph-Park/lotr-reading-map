@@ -24,14 +24,6 @@ npm run dev
 | `npm run preview` | 빌드 결과 미리 보기 |
 | `npm run validate` | 데이터 정합성 검사 + 검수 필요 항목 목록 출력 |
 
-### 휴대폰에서 보기 (같은 Wi-Fi)
-
-```bash
-npm run dev:phone
-```
-
-터미널에 `Network: http://192.168.x.x:5173` 형태의 주소가 나옵니다. Mac과 같은 Wi-Fi에 연결된 휴대폰 브라우저에서 그 주소를 열면 됩니다. macOS가 들어오는 연결을 허용할지 물으면 허용하세요. Mac이 켜져 있고 이 명령이 실행 중일 때만 접속됩니다.
-
 ### 배포 (GitHub Pages)
 
 `main` 브랜치에 푸시하면 GitHub Actions(`.github/workflows/deploy.yml`)가 데이터 검사 → 빌드 → 배포를 자동으로 진행합니다. 1~2분 뒤 위 사이트에 반영됩니다.
