@@ -4,6 +4,8 @@
 챕터를 고르면 그 시점에 각 인물이 지도 위 어디에 있고 무엇을 했는지, 장소는 어떤 모습인지 보여 줍니다.
 **선택한 챕터 이후의 내용은 나오지 않도록** 설계했습니다.
 
+🌐 **사이트: https://ralph-park.github.io/lotr-reading-map/** (휴대폰에서도 열 수 있습니다)
+
 ## 실행하기
 
 Node.js 20 이상이 필요합니다.
@@ -29,6 +31,18 @@ npm run dev:phone
 ```
 
 터미널에 `Network: http://192.168.x.x:5173` 형태의 주소가 나옵니다. Mac과 같은 Wi-Fi에 연결된 휴대폰 브라우저에서 그 주소를 열면 됩니다. macOS가 들어오는 연결을 허용할지 물으면 허용하세요. Mac이 켜져 있고 이 명령이 실행 중일 때만 접속됩니다.
+
+### 배포 (GitHub Pages)
+
+`main` 브랜치에 푸시하면 GitHub Actions(`.github/workflows/deploy.yml`)가 데이터 검사 → 빌드 → 배포를 자동으로 진행합니다. 1~2분 뒤 위 사이트에 반영됩니다.
+
+```bash
+git add -A
+git commit -m "변경 내용"
+git push
+```
+
+진행 상황은 저장소의 Actions 탭에서 볼 수 있습니다. 데이터 검사(`npm run validate`)에 실패하면 배포되지 않습니다.
 
 ## 사용법
 
