@@ -1,0 +1,843 @@
+[
+  {
+    "id": "I-01",
+    "book": 1,
+    "number": 1,
+    "titleEn": "A Long-expected Party",
+    "inStoryDate": {"start": "1401-09-22", "end": "1401-09-23"},
+    "locations": ["hobbiton"],
+    "events": [
+      {"characters": ["bilbo", "frodo"], "locationId": "hobbiton", "date": "1401-09-22", "summary": "빌보가 자신의 111번째, 프로도의 33번째 생일을 맞아 성대한 잔치를 연다. 샤이어 사람들이 모두 들뜬 가운데 간달프의 불꽃놀이가 하늘을 수놓는다."},
+      {"characters": ["bilbo", "frodo", "gandalf"], "locationId": "hobbiton", "date": "1401-09-22", "summary": "빌보는 작별 연설 도중 반지를 끼고 사라진 뒤 백 엔드에서 여행 채비를 한다. 간달프의 설득 끝에 반지를 프로도에게 남기고 떠난다.", "exits": ["bilbo"]},
+      {"characters": ["frodo", "gandalf"], "locationId": "hobbiton", "date": "1401-09-23", "summary": "프로도는 백 엔드를 물려받고 몰려든 친척들을 상대한다. 간달프는 반지를 함부로 쓰지 말고 잘 간수하라고 당부한 뒤 길을 떠난다."}
+    ]
+  },
+  {
+    "id": "I-02",
+    "book": 1,
+    "number": 2,
+    "titleEn": "The Shadow of the Past",
+    "inStoryDate": {"start": "1401-09-23", "end": "1418-04-13"},
+    "locations": ["hobbiton", "bywater"],
+    "events": [
+      {"characters": ["sam"], "locationId": "bywater", "date": "1418-03-01", "confidence": "low", "summary": "주막 그린 드래곤에서 샘이 바깥세상의 이상한 소문(걸어 다니는 나무, 요정들의 서쪽 이동)을 이야기하지만 다른 호빗들은 코웃음 친다."},
+      {"characters": ["frodo", "gandalf"], "locationId": "hobbiton", "date": "1418-04-13", "summary": "오랜만에 돌아온 간달프가 반지를 불 속에 넣어 글자를 확인하고, 그것이 어둠의 군주가 찾는 절대반지임을 밝힌다. 골룸의 과거와 반지가 빌보에게 온 경위도 들려준다."},
+      {"characters": ["frodo", "gandalf", "sam"], "locationId": "hobbiton", "date": "1418-04-13", "summary": "프로도는 샤이어를 떠나기로 결심한다. 창밖에서 엿듣던 샘이 붙잡히고, 간달프는 벌 삼아 샘을 프로도의 길동무로 정한다."}
+    ]
+  },
+  {
+    "id": "I-03",
+    "book": 1,
+    "number": 3,
+    "titleEn": "Three is Company",
+    "inStoryDate": {"start": "1418-04-14", "end": "1418-09-24"},
+    "locations": ["hobbiton", "woody-end"],
+    "events": [
+      {"characters": ["frodo", "gandalf"], "locationId": "hobbiton", "date": "1418-06-30", "confidence": "low", "summary": "프로도는 버클랜드로 이사한다는 핑계로 백 엔드를 새클빌-배긴스 가에 판다. 간달프는 생일 전에 돌아오겠다며 급한 일로 떠나지만 끝내 돌아오지 않는다.", "exits": ["gandalf"]},
+      {"characters": ["frodo", "sam", "pippin"], "locationId": "hobbiton", "date": "1418-09-23", "summary": "간달프 없이 프로도, 샘, 피핀이 밤길로 출발한다. 곧 검은 옷을 입은 기수가 킁킁거리며 뒤를 쫓아와 셋은 길가 수풀에 숨는다."},
+      {"characters": ["frodo", "sam", "pippin", "gildor"], "locationId": "woody-end", "date": "1418-09-24", "summary": "우디 엔드 숲에서 다시 기수와 마주칠 뻔한 순간 길도르가 이끄는 요정 무리가 나타나 쫓아낸다. 요정들과 함께 밤을 보내며 프로도는 조언을 구한다."}
+    ]
+  },
+  {
+    "id": "I-04",
+    "book": 1,
+    "number": 4,
+    "titleEn": "A Short Cut to Mushrooms",
+    "inStoryDate": {"start": "1418-09-25", "end": "1418-09-25"},
+    "locations": ["maggots-farm", "bucklebury-ferry"],
+    "events": [
+      {"characters": ["frodo", "sam", "pippin"], "locationId": "woody-end", "date": "1418-09-25", "summary": "요정들과 헤어진 일행은 길을 벗어나 들판을 가로지르는 지름길을 택하지만, 덤불과 개울에 막혀 고생한다."},
+      {"characters": ["frodo", "sam", "pippin", "maggot"], "locationId": "maggots-farm", "date": "1418-09-25", "summary": "어릴 적 버섯 서리로 혼났던 매곳 농부의 농장에 들르게 된다. 매곳은 검은 기수가 '배긴스'를 찾아왔다고 알려 주고, 버섯 한 바구니와 함께 마차로 나루터까지 태워 준다."},
+      {"characters": ["frodo", "sam", "pippin", "merry"], "locationId": "bucklebury-ferry", "date": "1418-09-25", "summary": "나루터에서 메리가 마중 나와 일행을 강 건너로 데려간다. 건너편 강둑에 검은 형체가 서 있는 것이 보인다."}
+    ]
+  },
+  {
+    "id": "I-05",
+    "book": 1,
+    "number": 5,
+    "titleEn": "A Conspiracy Unmasked",
+    "inStoryDate": {"start": "1418-09-25", "end": "1418-09-25"},
+    "locations": ["crickhollow"],
+    "events": [
+      {"characters": ["frodo", "sam", "pippin", "merry", "fatty"], "locationId": "crickhollow", "date": "1418-09-25", "summary": "크릭할로우 집에서 목욕과 저녁을 즐긴 뒤, 프로도가 떠날 사실을 털어놓으려 하자 친구들이 이미 다 알고 있었다고 밝힌다. 샘이 몰래 정보를 전해 왔던 '음모'였다."},
+      {"characters": ["frodo", "sam", "pippin", "merry", "fatty"], "locationId": "crickhollow", "date": "1418-09-25", "summary": "메리와 피핀은 끝까지 따라가겠다고 고집하고, 넷은 대로 대신 묵은숲을 지나기로 한다. 뚱보 볼저는 집에 남아 프로도가 아직 있는 척하기로 한다."}
+    ]
+  },
+  {
+    "id": "I-06",
+    "book": 1,
+    "number": 6,
+    "titleEn": "The Old Forest",
+    "inStoryDate": {"start": "1418-09-26", "end": "1418-09-26"},
+    "locations": ["old-forest", "tom-bombadil-house"],
+    "events": [
+      {"characters": ["frodo", "sam", "pippin", "merry"], "locationId": "old-forest", "date": "1418-09-26", "summary": "울타리 아래 굴을 지나 묵은숲에 들어서지만, 나무들이 길을 막아 계속 버드나무 강 쪽으로 몰린다."},
+      {"characters": ["frodo", "sam", "pippin", "merry"], "locationId": "old-forest", "date": "1418-09-26", "summary": "늙은 버드나무 아래서 졸음에 빠진 사이 메리와 피핀이 나무 틈에 갇히고 프로도는 물에 빠질 뻔한다. 샘과 프로도가 필사적으로 구조하려 한다."},
+      {"characters": ["frodo", "sam", "pippin", "merry", "tom"], "locationId": "old-forest", "date": "1418-09-26", "summary": "노래를 부르며 나타난 톰 봄바딜이 버드나무를 꾸짖어 두 호빗을 풀어 주고, 일행을 자기 집으로 초대한다."}
+    ]
+  },
+  {
+    "id": "I-07",
+    "book": 1,
+    "number": 7,
+    "titleEn": "In the House of Tom Bombadil",
+    "inStoryDate": {"start": "1418-09-26", "end": "1418-09-27"},
+    "locations": ["tom-bombadil-house"],
+    "events": [
+      {"characters": ["frodo", "sam", "pippin", "merry", "tom", "goldberry"], "locationId": "tom-bombadil-house", "date": "1418-09-26", "summary": "골드베리가 환히 맞이하는 톰의 집에서 호빗들은 푸짐한 식사를 하고 편히 잠들지만 저마다 기이한 꿈을 꾼다."},
+      {"characters": ["frodo", "sam", "pippin", "merry", "tom"], "locationId": "tom-bombadil-house", "date": "1418-09-27", "summary": "비 오는 하루 동안 톰은 숲과 무덤 언덕의 옛이야기를 들려준다. 반지를 껴 보고도 사라지지 않는 톰의 모습에 프로도는 놀란다. 톰은 위험할 때 부를 노래를 가르쳐 준다."}
+    ]
+  },
+  {
+    "id": "I-08",
+    "book": 1,
+    "number": 8,
+    "titleEn": "Fog on the Barrow-downs",
+    "inStoryDate": {"start": "1418-09-28", "end": "1418-09-28"},
+    "locations": ["barrow-downs"],
+    "events": [
+      {"characters": ["frodo", "sam", "pippin", "merry"], "locationId": "barrow-downs", "date": "1418-09-28", "summary": "무덤 언덕을 넘던 중 짙은 안개에 길을 잃고, 프로도는 무덤 망령에게 붙잡혀 봉분 안에서 깨어난다. 다른 셋은 차갑게 누워 있다."},
+      {"characters": ["frodo", "sam", "pippin", "merry", "tom"], "locationId": "barrow-downs", "date": "1418-09-28", "summary": "프로도가 용기를 내 망령의 손을 베고 톰의 노래를 부르자 톰이 달려와 망령을 쫓아낸다. 호빗들은 봉분의 보물 가운데서 옛 단검을 하나씩 받는다."},
+      {"characters": ["frodo", "sam", "pippin", "merry", "tom"], "locationId": "barrow-downs", "date": "1418-09-28", "summary": "톰은 조랑말들을 찾아 주고 언덕 끝 큰길까지 배웅한 뒤, 브리의 여관을 권하며 돌아간다."}
+    ]
+  },
+  {
+    "id": "I-09",
+    "book": 1,
+    "number": 9,
+    "titleEn": "At the Sign of the Prancing Pony",
+    "inStoryDate": {"start": "1418-09-29", "end": "1418-09-29"},
+    "locations": ["bree"],
+    "events": [
+      {"characters": ["frodo", "sam", "pippin", "merry", "butterbur"], "locationId": "bree", "date": "1418-09-29", "summary": "비 내리는 저녁 브리에 도착해 여관 '달리는 조랑말'에 묵는다. 프로도는 '언더힐'이라는 가명을 쓴다."},
+      {"characters": ["frodo", "sam", "pippin", "aragorn"], "locationId": "bree", "date": "1418-09-29", "summary": "휴게실 구석에서 후드를 쓴 순찰자 '스트라이더'가 프로도를 지켜본다. 피핀이 말실수를 하려 하자 프로도가 탁자에 올라 노래를 부르다 넘어지는 순간 반지가 손가락에 끼워져 사라져 버린다."}
+    ]
+  },
+  {
+    "id": "I-10",
+    "book": 1,
+    "number": 10,
+    "titleEn": "Strider",
+    "inStoryDate": {"start": "1418-09-29", "end": "1418-09-29"},
+    "locations": ["bree"],
+    "events": [
+      {"characters": ["frodo", "sam", "pippin", "aragorn"], "locationId": "bree", "date": "1418-09-29", "summary": "스트라이더가 방으로 찾아와 검은 기수의 위험을 경고하고 길잡이를 자청한다. 샘은 끝까지 의심한다."},
+      {"characters": ["frodo", "sam", "pippin", "aragorn", "butterbur"], "locationId": "bree", "date": "1418-09-29", "summary": "버터버가 까맣게 잊고 있던 간달프의 편지를 전해 준다. 편지로 스트라이더의 본명이 아라고른임이 드러나고, 일행은 그를 믿기로 한다."},
+      {"characters": ["merry"], "locationId": "bree", "date": "1418-09-29", "summary": "밤 산책을 나갔던 메리가 검은 기수를 목격하고 쫓아갔다가 쓰러진 채 발견되어 돌아온다."}
+    ]
+  },
+  {
+    "id": "I-11",
+    "book": 1,
+    "number": 11,
+    "titleEn": "A Knife in the Dark",
+    "inStoryDate": {"start": "1418-09-29", "end": "1418-10-06"},
+    "locations": ["crickhollow", "bree", "midgewater", "weathertop"],
+    "events": [
+      {"characters": ["fatty"], "locationId": "crickhollow", "date": "1418-09-29", "summary": "같은 밤, 크릭할로우에 검은 기수들이 들이닥친다. 뚱보는 뒷문으로 도망쳐 버클랜드에 경보를 울리고 기수들은 빈집을 뒤진 뒤 사라진다."},
+      {"characters": ["frodo", "sam", "pippin", "merry", "aragorn"], "locationId": "bree", "date": "1418-09-30", "summary": "새벽에 호빗들이 쓰기로 했던 방이 습격당해 엉망이 되고 조랑말도 모두 없어진다. 여윈 조랑말 한 마리(빌)를 사서 늦게 출발한다."},
+      {"characters": ["frodo", "sam", "pippin", "merry", "aragorn"], "locationId": "midgewater", "date": "1418-10-02", "summary": "길을 피해 날벌레 들끓는 늪지를 헤치며 동쪽으로 간다. 밤에는 멀리 동쪽 언덕 위에서 번쩍이는 빛이 보인다."},
+      {"characters": ["frodo", "sam", "pippin", "merry", "aragorn"], "locationId": "weathertop", "date": "1418-10-06", "summary": "바람마루 아래 야영지에 다섯 기수가 다가온다. 공포에 질린 프로도가 반지를 끼자 우두머리가 그를 찌르고, 스트라이더가 불붙은 나뭇가지로 기수들을 몰아낸다."}
+    ]
+  },
+  {
+    "id": "I-12",
+    "book": 1,
+    "number": 12,
+    "titleEn": "Flight to the Ford",
+    "inStoryDate": {"start": "1418-10-07", "end": "1418-10-20"},
+    "locations": ["last-bridge", "trollshaws", "ford-of-bruinen"],
+    "events": [
+      {"characters": ["frodo", "sam", "pippin", "merry", "aragorn"], "locationId": "last-bridge", "date": "1418-10-13", "confidence": "low", "summary": "상처가 차갑게 번지는 프로도를 조랑말에 태우고 마지막 다리를 건넌다. 스트라이더는 다리 위에서 요정의 보석을 발견한다."},
+      {"characters": ["frodo", "sam", "pippin", "merry", "aragorn"], "locationId": "trollshaws", "date": "1418-10-17", "confidence": "low", "summary": "비바람 속 험한 언덕을 헤매다 빌보의 옛 모험에 나오는 돌 트롤들을 발견한다. 샘이 트롤 노래를 불러 모두를 웃게 한다."},
+      {"characters": ["frodo", "sam", "pippin", "merry", "aragorn", "glorfindel"], "locationId": "trollshaws", "date": "1418-10-18", "summary": "리븐델에서 온 요정 글로르핀델이 일행을 찾아낸다. 그는 프로도를 자신의 흰 말에 태운다."},
+      {"characters": ["frodo", "sam", "pippin", "merry", "aragorn", "glorfindel"], "locationId": "ford-of-bruinen", "date": "1418-10-20", "summary": "아홉 기수가 한꺼번에 추격해 오자 흰 말이 프로도를 태우고 여울을 건넌다. 기수들이 뒤따라 물에 들어서는 순간 거대한 물살이 말 모양으로 밀려와 그들을 휩쓸고, 프로도는 정신을 잃는다."}
+    ]
+  },
+  {
+    "id": "II-01",
+    "book": 2,
+    "number": 1,
+    "titleEn": "Many Meetings",
+    "inStoryDate": {"start": "1418-10-24", "end": "1418-10-24"},
+    "locations": ["rivendell"],
+    "events": [
+      {"characters": ["frodo", "gandalf"], "locationId": "rivendell", "date": "1418-10-24", "summary": "프로도가 리븐델의 침대에서 깨어난다. 간달프는 엘론드가 어깨 속 칼날 조각을 찾아내 치료했으며, 여울의 홍수도 엘론드의 힘 덕분이었다고 설명한다."},
+      {"characters": ["frodo", "sam", "merry", "pippin"], "locationId": "rivendell", "date": "1418-10-24", "summary": "샘과 메리, 피핀이 달려와 기뻐하며 프로도를 맞는다. 모두 한동안 안전하게 쉴 수 있게 되었다."},
+      {"characters": ["frodo", "elrond", "arwen", "gloin", "glorfindel"], "locationId": "rivendell", "date": "1418-10-24", "summary": "저녁 연회에서 프로도는 드워프 글로인 옆에 앉아 외로운 산의 소식을 듣고, 엘론드 곁에 앉은 아름다운 아르웬을 보게 된다."},
+      {"characters": ["frodo", "bilbo", "aragorn"], "locationId": "rivendell", "date": "1418-10-24", "summary": "불의 전당에서 프로도는 뜻밖에 빌보와 재회한다. 빌보가 반지를 보여 달라 할 때 프로도는 섬뜩한 그림자를 느낀다. 빌보는 스트라이더의 도움을 받아 지은 노래를 들려준다."}
+    ]
+  },
+  {
+    "id": "II-02",
+    "book": 2,
+    "number": 2,
+    "titleEn": "The Council of Elrond",
+    "inStoryDate": {"start": "1418-10-25", "end": "1418-10-25"},
+    "locations": ["rivendell"],
+    "events": [
+      {"characters": ["frodo", "bilbo", "gandalf", "elrond", "aragorn", "boromir", "legolas", "gimli", "gloin"], "locationId": "rivendell", "date": "1418-10-25", "summary": "엘론드의 회의가 열린다. 글로인은 사우론의 사자가 외로운 산에 찾아왔던 일을, 곤도르에서 온 보로미르는 꿈의 수수께끼와 동쪽의 공격을 전한다. 아라고른은 부러진 칼 나르실을 보이며 자신의 혈통을 밝힌다."},
+      {"characters": ["frodo", "bilbo", "gandalf", "legolas"], "locationId": "rivendell", "date": "1418-10-25", "summary": "프로도가 반지를 내보이고 빌보가 모험담을 들려준다. 간달프는 반지의 정체를 확인한 경위를 말하고, 레골라스는 붙잡혀 있던 골룸이 어둠숲에서 달아났다는 나쁜 소식을 전한다."},
+      {"characters": ["gandalf"], "locationId": "isengard", "date": "1418-07-10", "summary": "(간달프의 회상) 사루만을 찾아간 간달프는 그가 힘을 탐내 배신했음을 알게 되고, 거절하자 오르상크 꼭대기에 갇힌다."},
+      {"characters": ["gandalf"], "locationId": "isengard", "date": "1418-09-18", "summary": "(간달프의 회상) 소식을 전하러 온 거대한 독수리 과이히르의 도움으로 오르상크에서 탈출한다."},
+      {"characters": ["gandalf"], "locationId": "edoras", "date": "1418-09-20", "confidence": "low", "summary": "(간달프의 회상) 로한에 내려 왕을 찾아가지만 환대받지 못한다. 대신 비길 데 없는 말 섀도팩스를 얻는다."},
+      {"characters": ["gandalf"], "locationId": "hobbiton", "date": "1418-09-29", "confidence": "low", "summary": "(간달프의 회상) 샤이어에 도착했지만 프로도는 이미 떠난 뒤였다."},
+      {"characters": ["gandalf"], "locationId": "bree", "date": "1418-09-30", "confidence": "low", "summary": "(간달프의 회상) 브리를 지나며 버터버에게서 호빗들이 스트라이더와 함께 떠났다는 소식을 듣는다."},
+      {"characters": ["gandalf"], "locationId": "weathertop", "date": "1418-10-03", "summary": "(간달프의 회상) 바람마루에서 검은 기수들에게 포위되어 밤새 싸우고, 그들을 끌어낸 뒤 북쪽으로 돌아 리븐델로 향한다."},
+      {"characters": ["gandalf"], "locationId": "rivendell", "date": "1418-10-18", "summary": "(간달프의 회상) 프로도 일행보다 조금 앞서 리븐델에 도착한다."},
+      {"characters": ["frodo", "sam", "elrond", "gandalf", "boromir"], "locationId": "rivendell", "date": "1418-10-25", "summary": "반지를 숨기거나 쓸 수 없으니 모르도르의 운명의 산 불 속에 던져 파괴해야 한다는 결론이 난다. 침묵 끝에 프로도가 자신이 가져가겠다고 나서고, 몰래 숨어 있던 샘도 함께 가게 된다."}
+    ]
+  },
+  {
+    "id": "II-03",
+    "book": 2,
+    "number": 3,
+    "titleEn": "The Ring Goes South",
+    "inStoryDate": {"start": "1418-10-25", "end": "1419-01-12"},
+    "locations": ["rivendell", "hollin", "caradhras"],
+    "events": [
+      {"characters": ["frodo", "bilbo"], "locationId": "rivendell", "date": "1418-12-24", "confidence": "low", "summary": "정찰대가 돌아온 뒤 출발이 정해진다. 빌보는 프로도에게 요정검 스팅과 가벼운 미스릴 사슬 갑옷을 건넨다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "gandalf", "aragorn", "legolas", "gimli", "boromir", "elrond"], "locationId": "rivendell", "date": "1418-12-25", "summary": "엘론드가 아홉 명의 반지 원정대를 정한다. 메리와 피핀도 간달프의 편을 얻어 함께하게 되고, 원정대는 해 질 녘 조용히 리븐델을 떠난다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "gandalf", "aragorn", "legolas", "gimli", "boromir"], "locationId": "hollin", "date": "1419-01-08", "summary": "남쪽으로 걸어 호랑가시나무 땅에 이른다. 까마귀 떼가 감시하듯 하늘을 맴돌아, 일행은 밤에만 움직이기로 한다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "gandalf", "aragorn", "legolas", "gimli", "boromir"], "locationId": "caradhras", "date": "1419-01-12", "summary": "붉은뿔 고개를 넘으려다 거센 눈보라에 갇힌다. 보로미르와 아라고른이 눈을 헤쳐 길을 내고, 결국 일행은 산을 포기하고 되돌아 내려온다."}
+    ]
+  },
+  {
+    "id": "II-04",
+    "book": 2,
+    "number": 4,
+    "titleEn": "A Journey in the Dark",
+    "inStoryDate": {"start": "1419-01-12", "end": "1419-01-15"},
+    "locations": ["moria-west-gate", "mazarbul"],
+    "events": [
+      {"characters": ["frodo", "sam", "merry", "pippin", "gandalf", "aragorn", "legolas", "gimli", "boromir"], "locationId": "caradhras", "date": "1419-01-13", "confidence": "low", "summary": "간달프가 모리아를 지나가자고 제안해 의견이 갈린다. 그날 밤 늑대 떼가 야영지를 습격하고, 간달프의 불꽃과 레골라스의 화살로 물리친다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "gandalf", "aragorn", "legolas", "gimli", "boromir"], "locationId": "moria-west-gate", "date": "1419-01-13", "summary": "모리아 서문 앞에서 간달프가 주문을 찾느라 애쓰다 수수께끼의 뜻을 깨닫고 문을 연다. 호수 속 촉수 괴물이 프로도를 붙잡는 순간 모두 안으로 뛰어들고, 문이 무너져 닫힌다. 조랑말 빌은 남겨진다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "gandalf", "aragorn", "legolas", "gimli", "boromir"], "locationId": "mazarbul", "date": "1419-01-14", "confidence": "low", "summary": "끝없는 어둠 속을 간달프의 지팡이 불빛에 의지해 걷는다. 피핀이 우물에 돌을 떨어뜨리자 깊은 곳에서 망치 소리 같은 신호가 들려온다. 김리는 드워프 왕국의 옛 영광을 노래한다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "gandalf", "aragorn", "legolas", "gimli", "boromir"], "locationId": "mazarbul", "date": "1419-01-15", "summary": "마자르불의 방에서 발린의 무덤과 찢어진 기록책을 발견해, 드워프 원정대가 몰살당했음을 알게 된다. 그때 깊은 곳에서 북소리가 울려 퍼진다."}
+    ]
+  },
+  {
+    "id": "II-05",
+    "book": 2,
+    "number": 5,
+    "titleEn": "The Bridge of Khazad-dûm",
+    "inStoryDate": {"start": "1419-01-15", "end": "1419-01-15"},
+    "locations": ["mazarbul", "khazad-dum-bridge", "dimrill-dale"],
+    "events": [
+      {"characters": ["frodo", "sam", "merry", "pippin", "gandalf", "aragorn", "legolas", "gimli", "boromir"], "locationId": "mazarbul", "date": "1419-01-15", "summary": "오크와 동굴 트롤이 방으로 밀려든다. 프로도는 창에 찔리지만 미스릴 갑옷 덕에 살아남는다. 간달프가 문을 주문으로 막는 사이 모두 달아나지만, 무시무시한 힘과 부딪힌 간달프는 크게 지친다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "gandalf", "aragorn", "legolas", "gimli", "boromir"], "locationId": "khazad-dum-bridge", "date": "1419-01-15", "summary": "크하잣둠의 다리에서 불과 그림자에 싸인 발로그가 나타난다. 간달프가 홀로 다리에 서서 막아서고 다리를 부수지만, 발로그의 채찍에 휘감겨 심연으로 떨어진다.", "exits": ["gandalf"]},
+      {"characters": ["frodo", "sam", "merry", "pippin", "aragorn", "legolas", "gimli", "boromir"], "locationId": "dimrill-dale", "date": "1419-01-15", "summary": "아라고른이 남은 이들을 이끌고 동문 밖 햇빛 속으로 빠져나온다. 모두 슬픔에 잠기지만 쉴 틈 없이 길을 재촉하고, 김리는 프로도와 샘에게 거울 호수를 보여 준다."}
+    ]
+  },
+  {
+    "id": "II-06",
+    "book": 2,
+    "number": 6,
+    "titleEn": "Lothlórien",
+    "inStoryDate": {"start": "1419-01-15", "end": "1419-01-17"},
+    "locations": ["nimrodel", "cerin-amroth", "caras-galadhon"],
+    "events": [
+      {"characters": ["frodo", "sam", "aragorn"], "locationId": "dimrill-dale", "date": "1419-01-15", "summary": "아라고른이 프로도와 샘의 상처를 살피다 프로도가 입은 미스릴 갑옷을 보고 모두 놀란다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "aragorn", "legolas", "gimli", "boromir", "haldir"], "locationId": "nimrodel", "date": "1419-01-15", "summary": "로리엔 가장자리의 님로델 시내를 건넌다. 요정 할디르 일행에게 발견되어 나무 위 망루에서 밤을 보내는데, 아래로 오크 떼와 정체 모를 무언가가 지나간다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "aragorn", "legolas", "gimli", "boromir", "haldir"], "locationId": "cerin-amroth", "date": "1419-01-16", "confidence": "low", "summary": "김리만 눈가리개를 하게 되자 공평하게 모두 눈을 가리고 걷는다. 케린 암로스 언덕에서 프로도는 시간이 멈춘 듯한 옛 세상의 아름다움을 느끼고, 아라고른은 추억에 잠긴다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "aragorn", "legolas", "gimli", "boromir", "haldir", "galadriel", "celeborn"], "locationId": "caras-galadhon", "date": "1419-01-17", "summary": "카라스 갈라돈에서 갈라드리엘과 켈레본을 만난다. 간달프가 없다는 소식에 켈레본이 슬퍼하고, 갈라드리엘은 말없이 한 사람 한 사람의 마음을 시험하듯 바라본다."}
+    ]
+  },
+  {
+    "id": "II-07",
+    "book": 2,
+    "number": 7,
+    "titleEn": "The Mirror of Galadriel",
+    "inStoryDate": {"start": "1419-01-17", "end": "1419-02-14"},
+    "locations": ["caras-galadhon"],
+    "events": [
+      {"characters": ["frodo", "sam", "merry", "pippin", "aragorn", "legolas", "gimli", "boromir"], "locationId": "caras-galadhon", "date": "1419-01-18", "confidence": "low", "summary": "요정들이 간달프를 기리는 애가를 부르고, 일행은 시간 가는 줄 모르고 쉬며 몸과 마음을 추스른다. 샘은 간달프의 불꽃놀이를 기리는 소박한 시를 짓는다."},
+      {"characters": ["frodo", "sam", "galadriel"], "locationId": "caras-galadhon", "date": "1419-02-14", "summary": "갈라드리엘이 프로도와 샘에게 물 거울을 보여 준다. 샘은 고향 샤이어가 망가지는 광경을 보고, 프로도는 먼 장면들과 자신을 찾는 거대한 눈을 본다."},
+      {"characters": ["frodo", "galadriel"], "locationId": "caras-galadhon", "date": "1419-02-14", "summary": "갈라드리엘은 자신도 요정의 반지 하나를 지니고 있음을 밝힌다. 프로도가 절대반지를 건네려 하자 그녀는 잠시 유혹을 느끼지만, 시험을 이겨 내고 거절한다."}
+    ]
+  },
+  {
+    "id": "II-08",
+    "book": 2,
+    "number": 8,
+    "titleEn": "Farewell to Lórien",
+    "inStoryDate": {"start": "1419-02-15", "end": "1419-02-16"},
+    "locations": ["caras-galadhon", "egladil"],
+    "events": [
+      {"characters": ["frodo", "sam", "merry", "pippin", "aragorn", "legolas", "gimli", "boromir", "celeborn"], "locationId": "caras-galadhon", "date": "1419-02-15", "summary": "켈레본이 앞으로의 길을 묻고 배 세 척을 내준다. 일행은 요정 망토와 길양식 렘바스, 요정 밧줄을 받는다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "aragorn", "legolas", "gimli", "boromir", "galadriel", "celeborn"], "locationId": "egladil", "date": "1419-02-16", "summary": "강변 작별 잔치에서 갈라드리엘이 저마다에게 선물을 건넨다. 김리는 머리카락 세 올을 청해 받고, 프로도는 별빛을 담은 작은 유리병을 받는다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "aragorn", "legolas", "gimli", "boromir"], "locationId": "egladil", "date": "1419-02-16", "summary": "배를 타고 대하를 따라 떠난다. 멀어지는 로리엔을 바라보며 김리는 가장 소중한 것을 두고 떠난다며 눈물짓는다."}
+    ]
+  },
+  {
+    "id": "II-09",
+    "book": 2,
+    "number": 9,
+    "titleEn": "The Great River",
+    "inStoryDate": {"start": "1419-02-16", "end": "1419-02-25"},
+    "locations": ["brown-lands", "sarn-gebir", "argonath", "parth-galen"],
+    "events": [
+      {"characters": ["frodo", "sam", "merry", "pippin", "aragorn", "legolas", "gimli", "boromir"], "locationId": "brown-lands", "date": "1419-02-19", "confidence": "low", "summary": "황량한 갈색 땅 사이로 며칠을 떠내려간다. 샘은 눈 달린 통나무를 봤다고 투덜댄다."},
+      {"characters": ["frodo", "aragorn", "gollum"], "locationId": "brown-lands", "date": "1419-02-20", "confidence": "low", "summary": "밤에 프로도는 통나무를 타고 뒤따르는 골룸을 발견한다. 아라고른은 그가 모리아에서부터 따라왔다고 말한다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "aragorn", "legolas", "gimli", "boromir"], "locationId": "sarn-gebir", "date": "1419-02-23", "summary": "급류 근처에서 밤중에 동쪽 기슭의 오크들이 화살을 쏜다. 레골라스가 하늘을 가리는 날개 달린 그림자를 쏘아 떨어뜨리고, 일행은 다음 날 배를 메고 급류를 우회한다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "aragorn", "legolas", "gimli", "boromir"], "locationId": "argonath", "date": "1419-02-25", "summary": "거대한 두 석상 아르고나스 사이를 지난다. 아라고른은 조상들의 모습 앞에서 왕다운 위엄을 드러낸다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "aragorn", "legolas", "gimli", "boromir"], "locationId": "parth-galen", "date": "1419-02-25", "summary": "라우로스 폭포 위 서쪽 풀밭 파르스 갈렌에 배를 대고 야영한다. 이제 어느 길로 갈지 정해야 할 때가 왔다."}
+    ]
+  },
+  {
+    "id": "II-10",
+    "book": 2,
+    "number": 10,
+    "titleEn": "The Breaking of the Fellowship",
+    "inStoryDate": {"start": "1419-02-26", "end": "1419-02-26"},
+    "locations": ["parth-galen", "emyn-muil"],
+    "events": [
+      {"characters": ["frodo", "sam", "merry", "pippin", "aragorn", "legolas", "gimli", "boromir"], "locationId": "parth-galen", "date": "1419-02-26", "summary": "미나스 티리스로 갈지 동쪽 모르도르로 갈지 의논하다, 프로도가 혼자 생각할 시간을 달라며 숲으로 간다."},
+      {"characters": ["frodo", "boromir"], "locationId": "parth-galen", "date": "1419-02-26", "summary": "뒤따라온 보로미르가 반지를 곤도르를 위해 쓰자며 설득하다 결국 빼앗으려 달려든다. 프로도는 반지를 끼고 달아나고, 보로미르는 곧 제정신이 들어 후회한다."},
+      {"characters": ["frodo"], "locationId": "parth-galen", "date": "1419-02-26", "summary": "아몬 헨 꼭대기의 '보는 자리'에서 프로도는 온 땅의 전쟁과 자신을 찾는 눈의 압박을 느낀다. 반지를 빼고는 혼자 모르도르로 가겠다고 결심한다."},
+      {"characters": ["sam", "merry", "pippin", "aragorn", "legolas", "gimli", "boromir"], "locationId": "parth-galen", "date": "1419-02-26", "summary": "보로미르의 말을 들은 일행이 뿔뿔이 흩어져 프로도를 찾는다. 샘은 프로도의 생각을 짐작하고 배가 있는 곳으로 달려간다."},
+      {"characters": ["frodo", "sam"], "locationId": "emyn-muil", "date": "1419-02-26", "summary": "배를 밀어내던 프로도에게 샘이 뛰어들다 물에 빠질 뻔하고, 프로도가 그를 건져 올린다. 둘은 함께 강을 건너 동쪽 에뮌 무일로 향한다."}
+    ]
+  },
+  {
+    "id": "III-01",
+    "book": 3,
+    "number": 1,
+    "titleEn": "The Departure of Boromir",
+    "inStoryDate": {"start": "1419-02-26", "end": "1419-02-26"},
+    "locations": ["parth-galen", "rauros"],
+    "events": [
+      {"characters": ["aragorn", "boromir"], "locationId": "parth-galen", "date": "1419-02-26", "summary": "아라고른은 뿔나팔 소리를 따라가 오크 시체들 사이에서 화살을 맞고 쓰러진 보로미르를 발견한다. 보로미르는 반지를 빼앗으려 했던 일을 고백하고, 오크들이 호빗들을 잡아갔다고 알린 뒤 숨을 거둔다.", "exits": ["boromir"]},
+      {"characters": ["aragorn", "legolas", "gimli"], "locationId": "rauros", "date": "1419-02-26", "summary": "세 사람은 보로미르를 요정 배에 눕혀 라우로스 폭포로 떠나보내고, 그를 기리는 노래를 부른다."},
+      {"characters": ["aragorn", "legolas", "gimli"], "locationId": "parth-galen", "date": "1419-02-26", "summary": "배 한 척과 샘의 짐이 사라진 것을 보고 프로도와 샘이 동쪽으로 갔음을 알아챈다. 아라고른은 반지 운반자 대신 붙잡힌 두 호빗을 구하러 오크들을 쫓기로 결정한다."}
+    ]
+  },
+  {
+    "id": "III-02",
+    "book": 3,
+    "number": 2,
+    "titleEn": "The Riders of Rohan",
+    "inStoryDate": {"start": "1419-02-26", "end": "1419-02-30"},
+    "locations": ["east-emnet", "fangorn-edge"],
+    "events": [
+      {"characters": ["aragorn", "legolas", "gimli"], "locationId": "east-emnet", "date": "1419-02-27", "summary": "세 사냥꾼이 오크의 자취를 따라 로한 초원으로 내려선다. 아라고른은 일부러 떨어뜨린 듯한 로리엔의 잎사귀 브로치를 발견하고, 호빗이 살아 있다는 희망을 얻는다."},
+      {"characters": ["aragorn", "legolas", "gimli"], "locationId": "east-emnet", "date": "1419-02-29", "confidence": "low", "summary": "밤낮으로 초원을 달리며 추격한다. 레골라스의 눈에 멀리 기수들의 모습이 들어온다."},
+      {"characters": ["aragorn", "legolas", "gimli", "eomer"], "locationId": "east-emnet", "date": "1419-02-30", "summary": "에오메르가 이끄는 로한 기병대와 마주친다. 아라고른이 정체를 밝히자 에오메르는 오크 무리를 몰살했지만 호빗은 보지 못했다고 전하고, 말 두 필을 빌려준다."},
+      {"characters": ["aragorn", "legolas", "gimli"], "locationId": "fangorn-edge", "date": "1419-02-30", "summary": "팡고른 숲 가장자리의 전투 흔적과 불탄 오크 더미에 다다른다. 밤에 넝마를 걸친 노인이 나타났다 사라지고, 빌린 말들도 도망친다."}
+    ]
+  },
+  {
+    "id": "III-03",
+    "book": 3,
+    "number": 3,
+    "titleEn": "The Uruk-hai",
+    "inStoryDate": {"start": "1419-02-26", "end": "1419-02-29"},
+    "locations": ["parth-galen", "east-emnet", "fangorn-edge"],
+    "events": [
+      {"characters": ["merry", "pippin"], "locationId": "parth-galen", "date": "1419-02-26", "summary": "피핀이 오크들에게 묶인 채 깨어나 보로미르가 자신들을 지키려 싸우던 기억을 떠올린다. 아이센가드, 모르도르, 산악 오크들이 호빗을 어디로 데려갈지를 두고 다툰다."},
+      {"characters": ["merry", "pippin"], "locationId": "east-emnet", "date": "1419-02-27", "summary": "오크들이 호빗들을 끌고 초원을 쉬지 않고 달린다. 피핀은 틈을 타 요정 브로치를 떨어뜨려 흔적을 남긴다."},
+      {"characters": ["merry", "pippin"], "locationId": "fangorn-edge", "date": "1419-02-29", "summary": "로한 기병들이 오크들을 포위한다. 반지를 노린 오크 그리쉬나크가 호빗들을 몰래 빼돌리다 쓰러지고, 둘은 묶인 줄을 풀고 팡고른 숲으로 도망친다. 새벽 공격으로 오크 무리는 전멸한다."}
+    ]
+  },
+  {
+    "id": "III-04",
+    "book": 3,
+    "number": 4,
+    "titleEn": "Treebeard",
+    "inStoryDate": {"start": "1419-02-29", "end": "1419-03-02"},
+    "locations": ["fangorn", "wellinghall", "derndingle"],
+    "events": [
+      {"characters": ["merry", "pippin", "treebeard"], "locationId": "fangorn", "date": "1419-02-29", "summary": "숲 속 언덕에서 나무처럼 생긴 거인 나무수염(엔트)을 만난다. 그는 서두르지 않는 말투로 호빗들을 살피고, 두 팔에 안아 숲 깊이 데려간다."},
+      {"characters": ["merry", "pippin", "treebeard"], "locationId": "wellinghall", "date": "1419-02-29", "summary": "나무수염의 거처에서 엔트 음료를 마시고 그간의 일을 이야기한다. 나무수염은 사라진 엔트 부인들과 숲을 베어 가는 사루만에 대한 분노를 털어놓는다."},
+      {"characters": ["merry", "pippin", "treebeard"], "locationId": "derndingle", "date": "1419-03-01", "summary": "엔트들이 모여 긴 회의를 연다. 기다리는 동안 호빗들은 젊은 엔트 브레갈라드와 지낸다."},
+      {"characters": ["merry", "pippin", "treebeard"], "locationId": "isengard", "date": "1419-03-02", "summary": "마침내 엔트들이 아이센가드로 진군하기로 결정한다. 노래하며 행진하는 엔트들 뒤로 숲 전체가 움직이는 듯하고, 밤이 되어 아이센가드가 내려다보이는 곳에 이른다."}
+    ]
+  },
+  {
+    "id": "III-05",
+    "book": 3,
+    "number": 5,
+    "titleEn": "The White Rider",
+    "inStoryDate": {"start": "1419-03-01", "end": "1419-03-01"},
+    "locations": ["fangorn-edge", "fangorn"],
+    "events": [
+      {"characters": ["aragorn", "legolas", "gimli"], "locationId": "fangorn-edge", "date": "1419-03-01", "summary": "세 사람은 호빗들의 발자국을 따라 팡고른 숲으로 들어간다."},
+      {"characters": ["aragorn", "legolas", "gimli", "gandalf"], "locationId": "fangorn", "date": "1419-03-01", "summary": "숲에서 마주친 노인이 흰옷을 드러내니 바로 간달프였다. 이제 '백색의 간달프'가 된 그는 호빗들이 나무수염과 함께 안전하다고 알려 준다."},
+      {"characters": ["gandalf"], "locationId": "khazad-dum-bridge", "date": "1419-01-15", "summary": "(간달프의 회상) 발로그와 함께 심연으로 떨어진 간달프는 물과 불 속에서 끝없이 싸우며 산속 깊은 곳까지 쫓는다."},
+      {"characters": ["gandalf"], "locationId": "zirakzigil", "date": "1419-01-25", "summary": "(간달프의 회상) 끝없는 계단을 올라 산꼭대기에서 발로그를 쓰러뜨리지만 자신도 스러진다. 이후 다시 돌려보내진다."},
+      {"characters": ["gandalf"], "locationId": "caras-galadhon", "date": "1419-02-17", "confidence": "low", "summary": "(간달프의 회상) 독수리 과이히르가 그를 로리엔으로 데려가고, 그곳에서 회복하여 흰옷을 입는다."},
+      {"characters": ["aragorn", "legolas", "gimli", "gandalf"], "locationId": "fangorn-edge", "date": "1419-03-01", "summary": "간달프가 휘파람으로 섀도팩스와 달아났던 말들을 불러들이고, 네 사람은 로한의 왕궁 에도라스로 달려간다. 지난밤의 노인은 사루만이었다고 간달프는 말한다."}
+    ]
+  },
+  {
+    "id": "III-06",
+    "book": 3,
+    "number": 6,
+    "titleEn": "The King of the Golden Hall",
+    "inStoryDate": {"start": "1419-03-02", "end": "1419-03-02"},
+    "locations": ["edoras"],
+    "events": [
+      {"characters": ["gandalf", "aragorn", "legolas", "gimli"], "locationId": "edoras", "date": "1419-03-02", "summary": "에도라스 궁정 문 앞에서 무기를 맡겨야 한다는 요구에 옥신각신하다, 간달프만 지팡이를 지닌 채 들어간다."},
+      {"characters": ["gandalf", "aragorn", "legolas", "gimli", "theoden", "wormtongue", "eowyn", "eomer"], "locationId": "edoras", "date": "1419-03-02", "summary": "늙고 쇠약해 보이던 세오덴 왕은 간달프가 뱀혓바닥의 속삭임을 끊어 내자 허리를 펴고 기운을 되찾는다. 갇혀 있던 에오메르가 풀려나고, 사루만의 첩자였던 뱀혓바닥은 쫓겨난다."},
+      {"characters": ["gandalf", "aragorn", "legolas", "gimli", "theoden", "eomer", "eowyn"], "locationId": "edoras", "date": "1419-03-02", "summary": "세오덴은 섀도팩스를 간달프에게 선물하고 직접 군대를 이끌고 서쪽으로 출정한다. 백성들은 에오윈에게 맡긴다."}
+    ]
+  },
+  {
+    "id": "III-07",
+    "book": 3,
+    "number": 7,
+    "titleEn": "Helm's Deep",
+    "inStoryDate": {"start": "1419-03-02", "end": "1419-03-04"},
+    "locations": ["helms-deep"],
+    "events": [
+      {"characters": ["gandalf", "aragorn", "legolas", "gimli", "theoden", "eomer"], "locationId": "fords-of-isen", "date": "1419-03-02", "confidence": "low", "summary": "아이센 여울 쪽으로 가던 중 서쪽 군대가 패했다는 소식을 듣는다. 간달프는 따로 볼일이 있다며 홀로 말을 달려 떠나고, 세오덴은 헬름 협곡으로 향한다."},
+      {"characters": ["aragorn", "legolas", "gimli", "theoden", "eomer"], "locationId": "helms-deep", "date": "1419-03-03", "summary": "비 내리는 밤, 사루만의 대군이 나팔산성을 공격한다. 김리가 에오메르를 구하고, 레골라스와 김리는 쓰러뜨린 적의 수를 겨룬다. 결국 폭발하는 불로 성벽 배수로가 뚫린다."},
+      {"characters": ["aragorn", "legolas", "gimli", "theoden", "eomer", "gandalf"], "locationId": "helms-deep", "date": "1419-03-04", "summary": "새벽, 세오덴이 나팔 소리와 함께 돌격한다. 골짜기 입구에 밤새 없던 숲이 생겨나 있고, 간달프가 에르켄브란드의 군사와 함께 나타난다. 달아난 적들은 숲 속으로 들어가 다시 나오지 못한다."}
+    ]
+  },
+  {
+    "id": "III-08",
+    "book": 3,
+    "number": 8,
+    "titleEn": "The Road to Isengard",
+    "inStoryDate": {"start": "1419-03-04", "end": "1419-03-05"},
+    "locations": ["helms-deep", "fords-of-isen", "isengard"],
+    "events": [
+      {"characters": ["gandalf", "aragorn", "legolas", "gimli", "theoden", "eomer"], "locationId": "helms-deep", "date": "1419-03-04", "summary": "김리가 한 명 차이로 내기에서 이긴다. 김리는 레골라스에게 헬름 협곡 안쪽 동굴의 눈부신 아름다움을 이야기한다. 간달프는 왕과 함께 아이센가드로 떠난다."},
+      {"characters": ["gandalf", "aragorn", "legolas", "gimli", "theoden", "eomer"], "locationId": "fords-of-isen", "date": "1419-03-04", "summary": "아이센 여울에 전사자의 무덤이 세워져 있다. 밤에는 어둠 속에서 거대한 무언가가 움직이는 기척이 지나간다."},
+      {"characters": ["gandalf", "aragorn", "legolas", "gimli", "theoden", "eomer", "merry", "pippin"], "locationId": "isengard", "date": "1419-03-05", "summary": "물에 잠겨 폐허가 된 아이센가드 문 앞에서, 메리와 피핀이 느긋하게 먹고 담배를 피우며 일행을 맞이한다."}
+    ]
+  },
+  {
+    "id": "III-09",
+    "book": 3,
+    "number": 9,
+    "titleEn": "Flotsam and Jetsam",
+    "inStoryDate": {"start": "1419-03-05", "end": "1419-03-05"},
+    "locations": ["isengard"],
+    "events": [
+      {"characters": ["merry", "pippin", "aragorn", "legolas", "gimli"], "locationId": "isengard", "date": "1419-03-05", "summary": "호빗들이 아이센가드 창고에서 찾은 음식과 담배를 나눈다. 남둘레산 담뱃잎이 여기 있다는 사실에 아라고른은 사루만의 속셈을 의심한다."},
+      {"characters": ["merry", "pippin", "treebeard"], "locationId": "isengard", "date": "1419-03-02", "summary": "(메리의 회상) 엔트들이 밤에 아이센가드를 덮쳐 성벽을 부수고, 사루만은 오르상크 탑 안으로 숨는다. 일부 나무 무리는 헬름 협곡으로 보내졌다."},
+      {"characters": ["merry", "pippin", "treebeard", "gandalf"], "locationId": "isengard", "date": "1419-03-03", "confidence": "low", "summary": "(메리의 회상) 간달프가 잠시 들러 나무수염과 의논하고, 엔트들은 강을 막았다 터뜨려 아이센가드를 물바다로 만든다."}
+    ]
+  },
+  {
+    "id": "III-10",
+    "book": 3,
+    "number": 10,
+    "titleEn": "The Voice of Saruman",
+    "inStoryDate": {"start": "1419-03-05", "end": "1419-03-05"},
+    "locations": ["isengard"],
+    "events": [
+      {"characters": ["gandalf", "theoden", "aragorn", "legolas", "gimli", "eomer", "merry", "pippin", "saruman"], "locationId": "isengard", "date": "1419-03-05", "summary": "오르상크 발코니에 나타난 사루만이 달콤한 목소리로 세오덴을 회유하지만 세오덴은 단호히 거절한다."},
+      {"characters": ["gandalf", "saruman"], "locationId": "isengard", "date": "1419-03-05", "summary": "간달프가 마지막 기회를 주지만 사루만은 거부한다. 간달프는 그를 마법사 회의에서 쫓아내고 그의 지팡이를 부러뜨린다."},
+      {"characters": ["gandalf", "pippin", "wormtongue", "treebeard"], "locationId": "isengard", "date": "1419-03-05", "summary": "탑 위에서 누군가 던진 검은 수정구가 떨어지고, 피핀이 주워 들지만 간달프가 곧바로 가져간다. 나무수염은 오르상크를 지키기로 한다."}
+    ]
+  },
+  {
+    "id": "III-11",
+    "book": 3,
+    "number": 11,
+    "titleEn": "The Palantír",
+    "inStoryDate": {"start": "1419-03-05", "end": "1419-03-05"},
+    "locations": ["dol-baran"],
+    "events": [
+      {"characters": ["gandalf", "theoden", "aragorn", "legolas", "gimli", "eomer", "merry", "pippin"], "locationId": "dol-baran", "date": "1419-03-05", "summary": "돌 바란 언덕에서 야영한다. 수정구가 궁금해 잠 못 이루던 피핀은 잠든 간달프에게서 몰래 그것을 꺼낸다."},
+      {"characters": ["pippin", "gandalf", "aragorn"], "locationId": "dol-baran", "date": "1419-03-05", "summary": "피핀이 팔란티르를 들여다보다 어둠의 군주와 눈이 마주쳐 쓰러진다. 다행히 아무것도 누설하지 않았고, 간달프는 돌을 아라고른에게 맡긴다."},
+      {"characters": ["gandalf", "pippin", "merry", "theoden"], "locationId": "dol-baran", "date": "1419-03-05", "summary": "날개 달린 나즈굴이 하늘을 지나가자, 간달프는 피핀을 섀도팩스에 태우고 곧장 곤도르의 미나스 티리스로 달려간다. 메리는 남아 세오덴과 함께한다."}
+    ]
+  },
+  {
+    "id": "IV-01",
+    "book": 4,
+    "number": 1,
+    "titleEn": "The Taming of Sméagol",
+    "inStoryDate": {"start": "1419-02-26", "end": "1419-02-29"},
+    "locations": ["emyn-muil"],
+    "events": [
+      {"characters": ["frodo", "sam"], "locationId": "emyn-muil", "date": "1419-02-28", "confidence": "low", "summary": "프로도와 샘은 며칠째 에뮌 무일의 바위 미로를 헤맨다. 폭풍 속에서 절벽을 내려가다 샘이 로리엔에서 받은 요정 밧줄을 떠올리고, 둘은 무사히 내려온다. 밧줄은 신기하게도 저절로 풀려 돌아온다."},
+      {"characters": ["frodo", "sam", "gollum"], "locationId": "emyn-muil", "date": "1419-02-29", "summary": "뒤를 밟아 절벽을 기어 내려오던 골룸을 둘이 붙잡는다. 요정 밧줄이 골룸을 괴롭히자 프로도는 연민을 느끼고, 골룸은 '보물'에 걸고 충성을 맹세한 뒤 길잡이가 된다."}
+    ]
+  },
+  {
+    "id": "IV-02",
+    "book": 4,
+    "number": 2,
+    "titleEn": "The Passage of the Marshes",
+    "inStoryDate": {"start": "1419-02-30", "end": "1419-03-04"},
+    "locations": ["dead-marshes"],
+    "events": [
+      {"characters": ["frodo", "sam", "gollum"], "locationId": "dead-marshes", "date": "1419-03-01", "summary": "골룸이 안개 낀 죽음늪 사이 좁은 길로 둘을 이끈다. 물 아래 창백한 얼굴들이 비치고, 홀리는 불빛이 프로도를 끌어당긴다."},
+      {"characters": ["frodo", "sam", "gollum"], "locationId": "dead-marshes", "date": "1419-03-02", "summary": "날개 달린 검은 그림자가 머리 위를 지나가 골룸이 겁에 질린다. 샘은 골룸이 '스메아골'과 '골룸' 두 목소리로 혼잣말하며 반지를 놓고 다투는 것을 엿듣는다."},
+      {"characters": ["frodo", "sam", "gollum"], "locationId": "morannon", "date": "1419-03-04", "summary": "늪을 벗어나 풀 한 포기 없는 잿빛 황무지를 지나, 검은 문 근처 광재 더미에 숨어든다."}
+    ]
+  },
+  {
+    "id": "IV-03",
+    "book": 4,
+    "number": 3,
+    "titleEn": "The Black Gate is Closed",
+    "inStoryDate": {"start": "1419-03-05", "end": "1419-03-05"},
+    "locations": ["morannon"],
+    "events": [
+      {"characters": ["frodo", "sam", "gollum"], "locationId": "morannon", "date": "1419-03-05", "summary": "검은 문은 삼엄하게 지켜지고 있어 들어갈 방법이 없어 보인다. 동쪽에서 온 군대가 문 안으로 들어가는 모습이 보인다."},
+      {"characters": ["frodo", "sam", "gollum"], "locationId": "morannon", "date": "1419-03-05", "summary": "골룸이 반지를 어둠의 군주에게 가져가지 말라며 애원하고, 남쪽 미나스 모르굴 근처에 다른 비밀 길이 있다고 말한다. 프로도는 망설인 끝에 그 길을 택하고, 샘은 올리폰트 이야기를 궁금해한다. 해 질 녘 출발한다."}
+    ]
+  },
+  {
+    "id": "IV-04",
+    "book": 4,
+    "number": 4,
+    "titleEn": "Of Herbs and Stewed Rabbit",
+    "inStoryDate": {"start": "1419-03-05", "end": "1419-03-07"},
+    "locations": ["north-ithilien"],
+    "events": [
+      {"characters": ["frodo", "sam", "gollum"], "locationId": "north-ithilien", "date": "1419-03-06", "summary": "남쪽으로 내려오니 향긋한 풀과 꽃이 가득한 이실리엔 숲이 펼쳐진다. 골룸이 잡아 온 토끼로 샘이 허브 스튜를 끓이는데, 불 연기가 사람들의 눈에 띈다."},
+      {"characters": ["frodo", "sam", "faramir"], "locationId": "north-ithilien", "date": "1419-03-07", "summary": "곤도르의 순찰대장 파라미르와 부하들이 둘을 발견한다. 곧이어 남쪽 군대를 기습하는 전투가 벌어지고, 거대한 무마킬(올리폰트)이 숲을 부수며 지나가 샘을 감격시킨다. 골룸은 모습을 감춘다."}
+    ]
+  },
+  {
+    "id": "IV-05",
+    "book": 4,
+    "number": 5,
+    "titleEn": "The Window on the West",
+    "inStoryDate": {"start": "1419-03-07", "end": "1419-03-07"},
+    "locations": ["north-ithilien", "henneth-annun"],
+    "events": [
+      {"characters": ["frodo", "sam", "faramir"], "locationId": "north-ithilien", "date": "1419-03-07", "summary": "파라미르가 '이실두르의 재앙'과 형 보로미르에 대해 묻는다. 그는 며칠 전 강물 위로 흘러가는 요정 배 속의 보로미르를 보았다고 털어놓는다. 프로도는 조심스럽게 말을 아낀다."},
+      {"characters": ["frodo", "sam", "faramir"], "locationId": "henneth-annun", "date": "1419-03-07", "summary": "눈을 가린 채 폭포 뒤 은신처 헨네스 안눈으로 간다. 석양이 폭포를 물들이는 가운데 샘이 무심코 반지 이야기를 흘려 버리지만, 파라미르는 그것을 탐하지 않겠다고 말한다."}
+    ]
+  },
+  {
+    "id": "IV-06",
+    "book": 4,
+    "number": 6,
+    "titleEn": "The Forbidden Pool",
+    "inStoryDate": {"start": "1419-03-07", "end": "1419-03-08"},
+    "locations": ["henneth-annun"],
+    "events": [
+      {"characters": ["frodo", "faramir", "gollum"], "locationId": "henneth-annun", "date": "1419-03-08", "summary": "한밤중 금지된 연못에서 골룸이 물고기를 잡고 있다. 활잡이들이 쏠 태세이자, 프로도가 직접 골룸을 불러내 붙잡히게 함으로써 목숨을 구한다. 골룸은 속았다며 원망한다."},
+      {"characters": ["frodo", "sam", "faramir", "gollum"], "locationId": "henneth-annun", "date": "1419-03-08", "summary": "파라미르는 키리스 웅골 길이 위험하다고 경고하면서도, 둘에게 식량과 지팡이를 주고 자유롭게 보내 준다."}
+    ]
+  },
+  {
+    "id": "IV-07",
+    "book": 4,
+    "number": 7,
+    "titleEn": "Journey to the Cross-roads",
+    "inStoryDate": {"start": "1419-03-08", "end": "1419-03-09"},
+    "locations": ["cross-roads"],
+    "events": [
+      {"characters": ["frodo", "sam", "gollum"], "locationId": "henneth-annun", "date": "1419-03-08", "summary": "파라미르와 작별하고 골룸의 안내로 숲을 따라 남쪽으로 걷는다. 사방이 이상하리만큼 고요하고, 동쪽 하늘이 점점 어두워진다."},
+      {"characters": ["frodo", "sam", "gollum"], "locationId": "cross-roads", "date": "1419-03-09", "summary": "짙어 가는 어둠 속 교차로에 이른다. 목이 부러진 옛 왕의 석상 곁, 굴러떨어진 머리에 꽃덩굴이 왕관처럼 얹혀 있는 것을 마지막 햇살이 비춘다."}
+    ]
+  },
+  {
+    "id": "IV-08",
+    "book": 4,
+    "number": 8,
+    "titleEn": "The Stairs of Cirith Ungol",
+    "inStoryDate": {"start": "1419-03-10", "end": "1419-03-11"},
+    "locations": ["minas-morgul", "cirith-ungol-stairs"],
+    "events": [
+      {"characters": ["frodo", "sam", "gollum"], "locationId": "minas-morgul", "date": "1419-03-10", "summary": "창백하게 빛나는 미나스 모르굴 앞을 지나며 프로도는 탑으로 끌려가는 듯한 힘을 느낀다. 도시에서 거대한 군대가 쏟아져 나오고, 그 선두의 우두머리 앞에서 프로도는 반지를 끼고 싶은 충동을 겨우 이겨 낸다."},
+      {"characters": ["frodo", "sam", "gollum"], "locationId": "cirith-ungol-stairs", "date": "1419-03-11", "summary": "끝없이 가파른 계단을 기어오른다. 쉬는 동안 샘과 프로도는 자신들도 언젠가 이야기 속 인물이 될지 이야기한다. 어딘가 다녀온 골룸은 잠든 프로도를 보며 잠시 마음이 흔들리지만, 깨어난 샘의 거친 말에 그 순간은 사라진다."}
+    ]
+  },
+  {
+    "id": "IV-09",
+    "book": 4,
+    "number": 9,
+    "titleEn": "Shelob's Lair",
+    "inStoryDate": {"start": "1419-03-12", "end": "1419-03-12"},
+    "locations": ["shelobs-lair"],
+    "events": [
+      {"characters": ["frodo", "sam", "gollum"], "locationId": "shelobs-lair", "date": "1419-03-12", "summary": "골룸이 지독한 악취가 나는 캄캄한 굴로 둘을 이끌고는 어둠 속으로 사라진다."},
+      {"characters": ["frodo", "sam"], "locationId": "shelobs-lair", "date": "1419-03-12", "summary": "무언가 거대한 것이 다가오자 프로도가 갈라드리엘의 유리병을 높이 들어 빛으로 몰아낸다. 출구를 막은 거미줄은 스팅으로 끊어 낸다."},
+      {"characters": ["frodo", "sam", "gollum"], "locationId": "shelobs-lair", "date": "1419-03-12", "summary": "기뻐 앞서 달려가는 프로도 뒤로 거대한 거미 쉴롭이 나타난다. 샘이 소리치려는 순간 골룸이 샘을 덮치고, 샘은 격렬히 싸워 그를 쫓아낸다."}
+    ]
+  },
+  {
+    "id": "IV-10",
+    "book": 4,
+    "number": 10,
+    "titleEn": "The Choices of Master Samwise",
+    "inStoryDate": {"start": "1419-03-12", "end": "1419-03-13"},
+    "locations": ["shelobs-lair", "cirith-ungol-tower"],
+    "events": [
+      {"characters": ["frodo", "sam"], "locationId": "shelobs-lair", "date": "1419-03-12", "summary": "쉴롭에게 쏘여 쓰러진 프로도를 보고 샘이 스팅과 유리병으로 맞서 괴물에게 큰 상처를 입혀 몰아낸다."},
+      {"characters": ["frodo", "sam"], "locationId": "shelobs-lair", "date": "1419-03-12", "summary": "프로도가 죽었다고 생각한 샘은 깊이 고민한 끝에 반지를 대신 짊어지고 임무를 이어 가기로 한다."},
+      {"characters": ["frodo", "sam"], "locationId": "cirith-ungol-tower", "date": "1419-03-13", "summary": "오크들이 프로도를 발견해 데려간다. 반지를 끼고 뒤따른 샘은 오크 대장들의 대화에서 프로도가 마비되었을 뿐 살아 있다는 말을 듣지만, 탑 문은 샘의 눈앞에서 닫혀 버린다."}
+    ]
+  },
+  {
+    "id": "V-01",
+    "book": 5,
+    "number": 1,
+    "titleEn": "Minas Tirith",
+    "inStoryDate": {"start": "1419-03-06", "end": "1419-03-09"},
+    "locations": ["minas-tirith"],
+    "events": [
+      {"characters": ["gandalf", "pippin"], "locationId": "druadan-forest", "date": "1419-03-08", "confidence": "low", "summary": "섀도팩스를 타고 밤낮으로 달리는 동안 곤도르의 봉화가 산마루마다 차례로 타오르는 모습이 보인다. 전쟁이 코앞에 닥쳤다는 신호다."},
+      {"characters": ["gandalf", "pippin", "denethor"], "locationId": "minas-tirith", "date": "1419-03-09", "summary": "새벽에 미나스 티리스에 도착해 섭정 데네소르를 만난다. 데네소르는 갈라진 보로미르의 뿔나팔을 쥐고 있고, 피핀은 보로미르에게 진 빚을 갚겠다며 곤도르에 충성을 맹세한다."},
+      {"characters": ["pippin", "beregond"], "locationId": "minas-tirith", "date": "1419-03-09", "summary": "근위병 베레곤드가 피핀에게 도시를 구경시켜 준다. 여러 영지에서 원군이 들어오지만 기대보다 적고, 밤이 되자 동쪽에서 거대한 어둠이 몰려오기 시작한다."}
+    ]
+  },
+  {
+    "id": "V-02",
+    "book": 5,
+    "number": 2,
+    "titleEn": "The Passing of the Grey Company",
+    "inStoryDate": {"start": "1419-03-05", "end": "1419-03-08"},
+    "locations": ["helms-deep", "dunharrow", "paths-of-the-dead", "erech"],
+    "events": [
+      {"characters": ["aragorn", "legolas", "gimli", "merry", "theoden", "halbarad"], "locationId": "fords-of-isen", "date": "1419-03-06", "summary": "밤길을 가던 세오덴 일행을 북쪽 순찰자 할바라드와 엘론드의 두 아들이 따라잡는다. 그들은 엘론드의 전언과 아르웬이 보낸 깃발을 아라고른에게 전한다."},
+      {"characters": ["merry", "theoden"], "locationId": "helms-deep", "date": "1419-03-06", "summary": "메리가 세오덴 앞에 무릎 꿇고 칼을 바쳐 로한의 시종이 된다."},
+      {"characters": ["aragorn", "legolas", "gimli", "halbarad"], "locationId": "helms-deep", "date": "1419-03-06", "summary": "아라고른이 팔란티르를 들여다보고 사우론과 의지를 겨뤄 자신의 존재를 드러낸다. 남쪽 해적선의 위협을 알게 된 그는 '사자의 길'로 가기로 결심한다."},
+      {"characters": ["aragorn", "legolas", "gimli", "halbarad", "eowyn"], "locationId": "dunharrow", "date": "1419-03-07", "summary": "던하로우에서 에오윈이 함께 가게 해 달라고 간청하지만, 아라고른은 백성을 지키는 것이 그녀의 몫이라며 거절한다."},
+      {"characters": ["aragorn", "legolas", "gimli", "halbarad"], "locationId": "paths-of-the-dead", "date": "1419-03-08", "summary": "회색 부대가 산속 저주받은 길로 들어선다. 보이지 않는 망자들이 뒤따르는 기척이 가득해 김리조차 두려움에 떤다."},
+      {"characters": ["aragorn", "legolas", "gimli", "halbarad"], "locationId": "erech", "date": "1419-03-08", "summary": "한밤중 에레크의 돌 앞에서 아라고른이 옛 맹세를 어긴 망자들을 소집하고, 그들을 이끌고 남쪽으로 달린다."}
+    ]
+  },
+  {
+    "id": "V-03",
+    "book": 5,
+    "number": 3,
+    "titleEn": "The Muster of Rohan",
+    "inStoryDate": {"start": "1419-03-07", "end": "1419-03-10"},
+    "locations": ["dunharrow"],
+    "events": [
+      {"characters": ["merry", "theoden", "eomer"], "locationId": "dunharrow", "date": "1419-03-09", "summary": "산골짜기를 지나 던하로우에 이른다. 길가에 늘어선 오래된 석상들과 병사들의 천막이 가득한 고원이 펼쳐진다."},
+      {"characters": ["merry", "theoden", "eomer", "eowyn"], "locationId": "dunharrow", "date": "1419-03-09", "summary": "에오윈이 일행을 맞으며 아라고른이 사자의 길로 떠났다고 전한다. 모두 슬퍼하고 에오윈은 특히 괴로워한다."},
+      {"characters": ["merry", "theoden"], "locationId": "dunharrow", "date": "1419-03-10", "summary": "해가 뜨지 않는 날, 곤도르의 붉은 화살 전령이 도움을 청한다. 세오덴은 출정을 약속하지만 메리에게는 남으라고 한다."},
+      {"characters": ["merry", "dernhelm"], "locationId": "dunharrow", "date": "1419-03-10", "summary": "풀이 죽은 메리에게 '데른헬름'이라는 젊은 기병이 다가와, 자기 말에 몰래 태워 주겠다고 한다. 메리는 망토 아래 숨어 대군과 함께 출발한다."}
+    ]
+  },
+  {
+    "id": "V-04",
+    "book": 5,
+    "number": 4,
+    "titleEn": "The Siege of Gondor",
+    "inStoryDate": {"start": "1419-03-10", "end": "1419-03-15"},
+    "locations": ["minas-tirith", "osgiliath", "pelennor"],
+    "events": [
+      {"characters": ["pippin", "gandalf", "faramir"], "locationId": "pelennor", "date": "1419-03-10", "summary": "해가 뜨지 않는 날, 파라미르가 나즈굴에게 쫓기며 성으로 돌아온다. 간달프가 흰 빛을 뿜으며 달려 나가 그를 구한다."},
+      {"characters": ["faramir", "denethor", "gandalf", "pippin"], "locationId": "minas-tirith", "date": "1419-03-10", "summary": "파라미르가 이실리엔에서 프로도와 샘을 만났으며 그들이 키리스 웅골로 향했다고 보고한다. 간달프는 크게 걱정하고, 데네소르는 반지를 가져오지 않은 파라미르를 차갑게 대한다."},
+      {"characters": ["faramir"], "locationId": "osgiliath", "date": "1419-03-12", "summary": "데네소르의 명령으로 파라미르가 오스길리아스 방어에 나서지만, 압도적인 적에게 밀려 후퇴한다."},
+      {"characters": ["faramir", "imrahil", "gandalf", "pippin"], "locationId": "pelennor", "date": "1419-03-13", "summary": "파라미르가 독화살에 맞아 의식을 잃은 채 실려 온다. 바깥 성벽이 무너지고 펠렌노르 들판이 적으로 뒤덮이며 도시가 포위된다."},
+      {"characters": ["denethor", "faramir", "pippin"], "locationId": "minas-tirith", "date": "1419-03-14", "summary": "불타는 포탄과 공포 속에서 데네소르는 절망에 빠져, 파라미르를 데리고 스스로 불타 죽겠다며 피핀을 내보낸다."},
+      {"characters": ["gandalf", "pippin"], "locationId": "minas-tirith", "date": "1419-03-15", "summary": "새벽 직전, 나즈굴의 우두머리가 거대한 망치로 성문을 부순다. 간달프가 홀로 섀도팩스를 타고 그 앞을 막아선 순간, 닭 울음소리와 함께 멀리서 로한의 뿔나팔이 울려 퍼진다."}
+    ]
+  },
+  {
+    "id": "V-05",
+    "book": 5,
+    "number": 5,
+    "titleEn": "The Ride of the Rohirrim",
+    "inStoryDate": {"start": "1419-03-12", "end": "1419-03-15"},
+    "locations": ["druadan-forest", "pelennor"],
+    "events": [
+      {"characters": ["merry", "dernhelm", "theoden", "eomer", "ghan"], "locationId": "druadan-forest", "date": "1419-03-13", "summary": "드루아단 숲에서 야생인의 우두머리 간부리간이 나타나, 적이 막아선 큰길을 피해 숨은 골짜기 길로 안내하겠다고 제안한다."},
+      {"characters": ["merry", "dernhelm", "theoden", "eomer", "ghan"], "locationId": "druadan-forest", "date": "1419-03-14", "summary": "야생인들의 안내로 잊힌 길을 지난다. 미나스 티리스가 불타고 있다는 소식에 모두 서두른다."},
+      {"characters": ["merry", "dernhelm", "theoden", "eomer"], "locationId": "pelennor", "date": "1419-03-15", "summary": "동틀 무렵 바람이 바뀌고, 세오덴이 전혀 다른 사람처럼 기운차게 앞장서 로한 기병대 전체가 펠렌노르 들판으로 돌격한다."}
+    ]
+  },
+  {
+    "id": "V-06",
+    "book": 5,
+    "number": 6,
+    "titleEn": "The Battle of the Pelennor Fields",
+    "inStoryDate": {"start": "1419-03-15", "end": "1419-03-15"},
+    "locations": ["pelennor"],
+    "events": [
+      {"characters": ["theoden", "merry"], "locationId": "pelennor", "date": "1419-03-15", "summary": "세오덴이 남쪽 군대의 기수를 쓰러뜨리지만, 날개 달린 괴수를 탄 나즈굴의 우두머리가 내려오자 말이 쓰러지며 왕을 깔아 버린다."},
+      {"characters": ["eowyn", "merry", "theoden"], "locationId": "pelennor", "date": "1419-03-15", "summary": "데른헬름이 투구를 벗으니 바로 에오윈이었다. 메리가 무덤 언덕의 단검으로 적의 다리를 찌르고, 에오윈이 마지막 일격을 가해 나즈굴의 우두머리를 쓰러뜨린다. 세오덴은 에오메르를 왕으로 세우고 숨을 거둔다.", "exits": ["theoden"]},
+      {"characters": ["eomer", "aragorn", "legolas", "gimli", "halbarad", "imrahil"], "locationId": "pelennor", "date": "1419-03-15", "summary": "누이가 쓰러진 것을 본 에오메르가 분노해 돌격한다. 강을 거슬러 오는 검은 해적선에 모두 절망하던 찰나, 배 위로 흰 나무의 깃발이 펼쳐지며 아라고른이 도착한다."},
+      {"characters": ["aragorn", "eomer", "imrahil"], "locationId": "pelennor", "date": "1419-03-15", "summary": "양쪽에서 협공해 해 질 녘 전투에서 승리한다. 그러나 많은 이가 목숨을 잃었다."}
+    ]
+  },
+  {
+    "id": "V-07",
+    "book": 5,
+    "number": 7,
+    "titleEn": "The Pyre of Denethor",
+    "inStoryDate": {"start": "1419-03-15", "end": "1419-03-15"},
+    "locations": ["minas-tirith"],
+    "events": [
+      {"characters": ["pippin", "gandalf", "beregond"], "locationId": "minas-tirith", "date": "1419-03-15", "summary": "피핀이 간달프를 찾아 데네소르의 광기를 알린다. 베레곤드는 명령을 어기고 무덤의 거리 문을 지키며 파라미르를 불태우지 못하게 막는다."},
+      {"characters": ["denethor", "gandalf", "faramir", "pippin", "beregond"], "locationId": "minas-tirith", "date": "1419-03-15", "summary": "간달프가 파라미르를 장작더미에서 구해 낸다. 데네소르는 오래전부터 팔란티르로 사우론의 힘을 엿보며 절망에 빠졌음을 드러내고, 스스로 불길 속으로 들어간다.", "exits": ["denethor"]},
+      {"characters": ["gandalf", "pippin"], "locationId": "minas-tirith", "date": "1419-03-15", "summary": "간달프는 이 일로 전장에 가지 못한 것을 안타까워하며, 적의 악의가 도시 안에서도 작용했다고 말한다."}
+    ]
+  },
+  {
+    "id": "V-08",
+    "book": 5,
+    "number": 8,
+    "titleEn": "The Houses of Healing",
+    "inStoryDate": {"start": "1419-03-15", "end": "1419-03-15"},
+    "locations": ["minas-tirith"],
+    "events": [
+      {"characters": ["merry", "pippin"], "locationId": "minas-tirith", "date": "1419-03-15", "summary": "팔이 마비된 메리가 넋이 나간 채 도시로 들어오고, 피핀이 그를 발견해 치유의 집으로 데려간다."},
+      {"characters": ["aragorn", "gandalf", "faramir"], "locationId": "minas-tirith", "date": "1419-03-15", "summary": "'왕의 손은 치유의 손'이라는 옛말이 떠오르고, 아라고른이 약초 아셀라스로 파라미르를 깨운다. 파라미르는 눈을 뜨자마자 그를 왕으로 알아본다."},
+      {"characters": ["aragorn", "eowyn", "eomer", "merry", "pippin"], "locationId": "minas-tirith", "date": "1419-03-15", "summary": "아라고른이 에오윈과 메리도 차례로 치유한다. 깨어난 메리는 곧장 밥과 담배를 찾아 모두를 안심시킨다."}
+    ]
+  },
+  {
+    "id": "V-09",
+    "book": 5,
+    "number": 9,
+    "titleEn": "The Last Debate",
+    "inStoryDate": {"start": "1419-03-16", "end": "1419-03-16"},
+    "locations": ["minas-tirith", "pelargir"],
+    "events": [
+      {"characters": ["legolas", "gimli", "merry", "pippin"], "locationId": "minas-tirith", "date": "1419-03-16", "summary": "레골라스와 김리가 호빗들을 찾아와 사자의 길 이후의 여정을 들려준다."},
+      {"characters": ["aragorn", "legolas", "gimli"], "locationId": "pelargir", "date": "1419-03-13", "summary": "(레골라스와 김리의 회상) 남쪽 땅을 가로질러 달린 회색 부대는 펠라르기르에서 망자의 군대로 해적들을 몰아내고 배를 빼앗는다. 아라고른은 망자들의 맹세를 풀어 준다."},
+      {"characters": ["gandalf", "aragorn", "eomer", "imrahil"], "locationId": "pelennor", "date": "1419-03-16", "summary": "장수들의 회의에서 간달프는 군사로 이길 수 없으니, 사우론의 눈을 반지 운반자로부터 돌리기 위해 검은 문으로 진군하자고 제안한다. 모두 동의하고 칠천의 병력을 꾸린다."}
+    ]
+  },
+  {
+    "id": "V-10",
+    "book": 5,
+    "number": 10,
+    "titleEn": "The Black Gate Opens",
+    "inStoryDate": {"start": "1419-03-18", "end": "1419-03-25"},
+    "locations": ["cross-roads", "morannon"],
+    "events": [
+      {"characters": ["merry"], "locationId": "minas-tirith", "date": "1419-03-18", "summary": "서부의 군대가 출발하고, 아직 회복 중인 메리는 남겨져 서운해한다."},
+      {"characters": ["aragorn", "gandalf", "legolas", "gimli", "pippin", "eomer", "imrahil"], "locationId": "cross-roads", "date": "1419-03-19", "confidence": "low", "summary": "군대가 교차로에 이르러 옛 왕의 석상을 바로 세우고, 모르굴 골짜기 앞에서 왕의 귀환을 선포한다."},
+      {"characters": ["aragorn", "gandalf", "legolas", "gimli", "pippin", "eomer", "imrahil"], "locationId": "north-ithilien", "date": "1419-03-23", "summary": "황량한 북쪽 땅에 들어서자 겁에 질린 병사들이 생긴다. 아라고른은 그들을 꾸짖지 않고 다른 임무를 주어 돌려보낸다."},
+      {"characters": ["aragorn", "gandalf", "legolas", "gimli", "pippin", "eomer", "imrahil"], "locationId": "morannon", "date": "1419-03-25", "summary": "검은 문 앞에 '사우론의 입'이 나와 프로도의 미스릴 갑옷과 샘의 칼, 요정 망토를 내보이며 항복을 요구한다. 간달프는 물건들을 빼앗고 조건을 거부한다."},
+      {"characters": ["aragorn", "gandalf", "legolas", "gimli", "pippin", "eomer", "imrahil"], "locationId": "morannon", "date": "1419-03-25", "summary": "문이 열리며 거대한 군대가 쏟아져 나와 서부의 군대를 포위한다. 피핀은 트롤을 쓰러뜨렸다가 그 아래 깔리고, 정신을 잃기 직전 '독수리들이 온다!'라는 외침을 듣는다."}
+    ]
+  },
+  {
+    "id": "VI-01",
+    "book": 6,
+    "number": 1,
+    "titleEn": "The Tower of Cirith Ungol",
+    "inStoryDate": {"start": "1419-03-13", "end": "1419-03-15"},
+    "locations": ["cirith-ungol-tower"],
+    "events": [
+      {"characters": ["sam"], "locationId": "cirith-ungol-tower", "date": "1419-03-13", "summary": "탑 안에서는 오크들끼리 싸움이 벌어진다. 반지는 샘에게 위대한 정원사가 되는 환상을 보여 주며 유혹하지만, 샘은 소박한 자신의 본분을 떠올리며 이겨 낸다."},
+      {"characters": ["sam"], "locationId": "cirith-ungol-tower", "date": "1419-03-14", "summary": "샘은 유리병의 빛으로 문을 지키는 감시자 석상을 통과해 탑을 뒤진다. 절망 속에 노래를 부르자 어디선가 프로도의 희미한 대답이 들려온다."},
+      {"characters": ["frodo", "sam"], "locationId": "cirith-ungol-tower", "date": "1419-03-14", "summary": "샘이 채찍을 휘두르던 오크를 물리치고 프로도를 구한다. 반지를 잃었다고 절망하던 프로도는 샘이 반지를 내밀자 거칠게 낚아챘다가 곧 사과한다. 둘은 오크 옷으로 변장한다."},
+      {"characters": ["frodo", "sam"], "locationId": "morgai", "date": "1419-03-15", "summary": "감시자 석상의 힘을 뚫고 탑을 빠져나오는 순간 문이 무너지고, 하늘에서 날카로운 비명이 울린다. 둘은 모르도르 안쪽으로 내려간다."}
+    ]
+  },
+  {
+    "id": "VI-02",
+    "book": 6,
+    "number": 2,
+    "titleEn": "The Land of Shadow",
+    "inStoryDate": {"start": "1419-03-15", "end": "1419-03-22"},
+    "locations": ["morgai", "isenmouthe", "gorgoroth"],
+    "events": [
+      {"characters": ["frodo", "sam"], "locationId": "morgai", "date": "1419-03-16", "summary": "모르가이 능선을 따라 북쪽으로 가다 작은 물줄기를 찾아 목을 축인다. 샘은 구름 사이로 빛나는 별 하나를 보고, 어둠도 결국 지나가리라는 희망을 얻는다."},
+      {"characters": ["frodo", "sam"], "locationId": "isenmouthe", "date": "1419-03-18", "summary": "오크 무리에게 탈영병으로 오인되어 억지로 행군하게 된다. 요새 앞에서 부대들이 뒤엉킨 틈을 타 간신히 빠져나온다."},
+      {"characters": ["frodo", "sam"], "locationId": "gorgoroth", "date": "1419-03-22", "summary": "바랏두르로 향하는 길을 따라 걷다가, 마침내 길을 벗어나 운명의 산을 향해 곧장 남동쪽으로 방향을 튼다. 물과 식량이 거의 바닥났다."}
+    ]
+  },
+  {
+    "id": "VI-03",
+    "book": 6,
+    "number": 3,
+    "titleEn": "Mount Doom",
+    "inStoryDate": {"start": "1419-03-22", "end": "1419-03-25"},
+    "locations": ["gorgoroth", "mount-doom"],
+    "events": [
+      {"characters": ["frodo", "sam"], "locationId": "gorgoroth", "date": "1419-03-23", "summary": "무거운 오크 갑옷과 필요 없는 짐을 모두 버린다. 샘은 돌아갈 길은 없을 것임을 알면서도 끝까지 가기로 마음먹는다."},
+      {"characters": ["frodo", "sam", "gollum"], "locationId": "mount-doom", "date": "1419-03-24", "summary": "기진한 프로도를 샘이 업고 산비탈을 오른다. 산길에서 골룸이 덤벼들고, 샘은 비참한 그를 차마 죽이지 못하고 보내 준다."},
+      {"characters": ["frodo", "sam", "gollum"], "locationId": "mount-doom", "date": "1419-03-25", "summary": "산속 불의 방에서 프로도는 끝내 반지를 던지지 못하고 자기 것이라 선언한다. 그 순간 골룸이 프로도의 손가락째 반지를 물어뜯고, 환호하다 발을 헛디뎌 반지와 함께 불구덩이로 떨어진다. 반지가 사라지며 어둠의 탑이 무너지고 산이 폭발한다.", "exits": ["gollum"]}
+    ]
+  },
+  {
+    "id": "VI-04",
+    "book": 6,
+    "number": 4,
+    "titleEn": "The Field of Cormallen",
+    "inStoryDate": {"start": "1419-03-25", "end": "1419-04-30"},
+    "locations": ["morannon", "mount-doom", "cormallen"],
+    "events": [
+      {"characters": ["gandalf", "aragorn", "legolas", "gimli", "eomer", "imrahil"], "locationId": "morannon", "date": "1419-03-25", "summary": "검은 문 앞에서 독수리들이 날아오고, 땅이 흔들리며 적의 군대가 순식간에 흩어진다. 간달프는 독수리 과이히르를 타고 불타는 산으로 날아간다."},
+      {"characters": ["gandalf", "frodo", "sam"], "locationId": "mount-doom", "date": "1419-03-25", "summary": "용암에 둘러싸여 쓰러져 있던 프로도와 샘을 독수리들이 구해 낸다."},
+      {"characters": ["frodo", "sam", "gandalf", "aragorn", "legolas", "gimli", "merry", "pippin"], "locationId": "cormallen", "date": "1419-04-08", "summary": "이실리엔의 코르말렌 들판에서 깨어난 샘과 프로도는 살아 있는 간달프와 동료들을 만나 기뻐한다. 모든 군대가 두 호빗을 영웅으로 칭송하고, 음유시인이 그들의 이야기를 노래한다."},
+      {"characters": ["frodo", "sam", "gandalf", "aragorn", "legolas", "gimli", "merry", "pippin"], "locationId": "osgiliath", "date": "1419-04-30", "confidence": "low", "summary": "잔치 후 일행은 배를 타고 대하를 따라 미나스 티리스 쪽으로 향한다."}
+    ]
+  },
+  {
+    "id": "VI-05",
+    "book": 6,
+    "number": 5,
+    "titleEn": "The Steward and the King",
+    "inStoryDate": {"start": "1419-03-15", "end": "1419-06-30"},
+    "locations": ["minas-tirith", "pelennor"],
+    "events": [
+      {"characters": ["faramir", "eowyn"], "locationId": "minas-tirith", "date": "1419-03-20", "confidence": "low", "summary": "치유의 집에서 전장에 가지 못해 답답해하던 에오윈이 파라미르를 만난다. 둘은 성벽을 거닐며 동쪽 소식을 기다린다."},
+      {"characters": ["faramir", "eowyn"], "locationId": "minas-tirith", "date": "1419-03-25", "summary": "동쪽의 어둠이 걷히고 큰 바람과 함께 햇빛이 돌아온다. 에오윈은 마음을 열고 파라미르와 사랑을 약속한다."},
+      {"characters": ["aragorn", "gandalf", "faramir", "frodo", "sam", "merry", "pippin", "legolas", "gimli", "eomer", "eowyn", "imrahil"], "locationId": "pelennor", "date": "1419-05-01", "summary": "성문 앞에서 파라미르가 섭정의 지팡이를 내려놓고, 프로도가 왕관을 가져오며 간달프가 아라고른에게 씌운다. 엘렛사르 왕은 파라미르를 이실리엔의 영주로 삼는다."},
+      {"characters": ["aragorn", "gandalf"], "locationId": "minas-tirith", "date": "1419-06-25", "summary": "간달프가 아라고른을 산 위로 데려가 눈 덮인 비탈에서 흰 나무의 새싹을 찾게 한다. 마른 옛 나무 대신 새 나무가 심어진다."},
+      {"characters": ["aragorn", "arwen", "elrond", "galadriel", "celeborn", "frodo", "gandalf"], "locationId": "minas-tirith", "date": "1419-06-30", "confidence": "low", "summary": "하지 무렵 엘론드와 아르웬이 요정들과 함께 도착하고, 한여름날 아라고른과 아르웬이 혼인한다."}
+    ]
+  },
+  {
+    "id": "VI-06",
+    "book": 6,
+    "number": 6,
+    "titleEn": "Many Partings",
+    "inStoryDate": {"start": "1419-07-01", "end": "1419-09-22"},
+    "locations": ["edoras", "isengard", "rivendell"],
+    "events": [
+      {"characters": ["frodo", "arwen", "aragorn"], "locationId": "minas-tirith", "date": "1419-07-10", "confidence": "low", "summary": "프로도가 집에 돌아가고 싶다고 하자, 아르웬은 흰 보석을 건네며 상처가 아플 때 위로가 될 것이라 말한다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "gandalf", "aragorn", "legolas", "gimli", "eomer", "eowyn", "faramir", "arwen"], "locationId": "edoras", "date": "1419-08-10", "summary": "세오덴 왕의 장례를 에도라스에서 치른다. 에오윈과 파라미르의 약혼이 발표되고, 메리는 로한에서 작은 뿔나팔을 선물받는다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "gandalf", "aragorn", "legolas", "gimli", "treebeard"], "locationId": "isengard", "date": "1419-08-22", "summary": "나무가 심어진 아이센가드에서 나무수염을 다시 만난다. 그는 사루만을 풀어 주었다고 전한다. 레골라스와 김리는 약속한 여행을 떠나고, 아라고른과도 작별한다.", "exits": ["legolas", "gimli", "aragorn"], "confidence": "low"},
+      {"characters": ["frodo", "sam", "merry", "pippin", "gandalf", "galadriel", "celeborn", "saruman", "wormtongue"], "locationId": "dunland", "date": "1419-08-28", "summary": "북쪽으로 가는 길에서 초라하게 떠도는 사루만과 뱀혓바닥을 만난다. 사루만은 비아냥거리며 메리에게 담배를 얻어 간다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "gandalf", "galadriel", "celeborn"], "locationId": "hollin", "date": "1419-09-13", "confidence": "low", "summary": "안개산맥이 보이는 곳에서 갈라드리엘과 켈레본이 동쪽으로 떠나며 작별한다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "gandalf", "bilbo", "elrond"], "locationId": "rivendell", "date": "1419-09-22", "summary": "리븐델에서 몹시 늙고 졸음이 많아진 빌보와 재회해 생일을 축하한다. 빌보는 프로도에게 자신의 기록과 책들을 맡긴다."}
+    ]
+  },
+  {
+    "id": "VI-07",
+    "book": 6,
+    "number": 7,
+    "titleEn": "Homeward Bound",
+    "inStoryDate": {"start": "1419-10-05", "end": "1419-10-30"},
+    "locations": ["ford-of-bruinen", "bree"],
+    "events": [
+      {"characters": ["frodo", "sam", "merry", "pippin", "gandalf"], "locationId": "ford-of-bruinen", "date": "1419-10-06", "summary": "리븐델을 떠나 여울을 건너던 날, 프로도는 옛 상처가 다시 아파 온다. 바람마루의 그날로부터 꼭 1년이 지난 날이었다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "gandalf", "butterbur"], "locationId": "bree", "date": "1419-10-28", "summary": "비 오는 밤 브리에 도착한다. 버터버는 마을에 악당들이 설쳐 흉흉했다고 하소연하고, 호빗들의 늠름해진 모습에 놀란다. 샘은 조랑말 빌과 재회한다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "gandalf"], "locationId": "bree", "date": "1419-10-30", "summary": "브리를 떠나 샤이어 경계에 가까워지자, 간달프는 이제 스스로 문제를 해결할 수 있을 것이라며 톰 봄바딜을 만나러 따로 떠난다.", "exits": ["gandalf"]}
+    ]
+  },
+  {
+    "id": "VI-08",
+    "book": 6,
+    "number": 8,
+    "titleEn": "The Scouring of the Shire",
+    "inStoryDate": {"start": "1419-10-30", "end": "1419-11-03"},
+    "locations": ["brandywine-bridge", "frogmorton", "bywater", "hobbiton"],
+    "events": [
+      {"characters": ["frodo", "sam", "merry", "pippin"], "locationId": "brandywine-bridge", "date": "1419-10-30", "summary": "브랜디와인 다리의 문이 잠겨 있고, 문지기들은 '두목'이 만든 온갖 규칙을 들먹인다. 넷은 억지로 문을 넘어 초소에서 밤을 보낸다."},
+      {"characters": ["frodo", "sam", "merry", "pippin"], "locationId": "frogmorton", "date": "1419-11-01", "summary": "샤이어 경비대가 넷을 '체포'하지만, 호빗들은 오히려 느긋하게 그들을 앞세워 걸어간다. 곳곳에서 베어진 나무와 흉한 새 건물이 보인다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "farmer-cotton", "rosie"], "locationId": "bywater", "date": "1419-11-02", "summary": "바이워터에서 불량배들을 쫓아낸 뒤 메리가 로한의 뿔나팔을 불어 샤이어 사람들을 깨운다. 샘은 코튼 가족과 로지를 다시 만난다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "farmer-cotton"], "locationId": "bywater", "date": "1419-11-03", "summary": "바이워터 전투에서 호빗들이 불량배 무리를 물리친다. 프로도는 싸움에 나서지 않고, 항복한 자와 호빗은 해치지 말라고 당부한다."},
+      {"characters": ["frodo", "sam", "merry", "pippin", "saruman", "wormtongue"], "locationId": "hobbiton", "date": "1419-11-03", "summary": "백 엔드에서 기다리던 '샤키'의 정체는 사루만이었다. 프로도는 칼을 휘두른 그마저 살려 보내지만, 짓밟히던 뱀혓바닥이 사루만을 찌르고 그 자신도 화살에 쓰러진다. 사루만의 몸은 잿빛 안개가 되어 흩어진다.", "exits": ["saruman", "wormtongue"]}
+    ]
+  },
+  {
+    "id": "VI-09",
+    "book": 6,
+    "number": 9,
+    "titleEn": "The Grey Havens",
+    "inStoryDate": {"start": "1419-11-04", "end": "1421-10-06"},
+    "locations": ["hobbiton", "woody-end", "grey-havens"],
+    "events": [
+      {"characters": ["sam", "frodo", "rosie"], "locationId": "hobbiton", "date": "1420-04-01", "confidence": "low", "summary": "샤이어를 복구하며 샘은 갈라드리엘의 상자에서 나온 흙과 씨앗을 곳곳에 심는다. 파티 들판에는 은빛 말로른 나무가 자라나고, 그해는 유난히 풍요롭다. 샘은 로지와 결혼한다."},
+      {"characters": ["frodo"], "locationId": "hobbiton", "date": "1421-03-13", "confidence": "low", "summary": "프로도는 상처를 입었던 날들이 돌아올 때마다 몸져누우며, 샤이어에서 조용히 뒤로 물러나 지낸다."},
+      {"characters": ["sam", "rosie", "frodo"], "locationId": "hobbiton", "date": "1421-03-25", "summary": "샘과 로지의 첫딸 엘라노르가 태어난다."},
+      {"characters": ["frodo", "sam"], "locationId": "hobbiton", "date": "1421-09-21", "summary": "프로도는 샘에게 기록을 마무리한 붉은 책을 맡기고, 함께 길을 나선다."},
+      {"characters": ["frodo", "sam", "bilbo", "elrond", "galadriel"], "locationId": "woody-end", "date": "1421-09-22", "summary": "우디 엔드 숲에서 떠나는 요정들의 행렬과 함께 온 엘론드, 갈라드리엘, 그리고 빌보를 만난다."},
+      {"characters": ["frodo", "sam", "bilbo", "gandalf", "merry", "pippin", "elrond", "galadriel"], "locationId": "grey-havens", "date": "1421-09-29", "summary": "회색 항구에서 간달프가 기다리고, 뒤늦게 메리와 피핀도 달려온다. 프로도는 샘에게 작별을 고하고 빌보, 간달프, 요정들과 함께 배에 올라 서쪽 바다 너머로 떠난다.", "exits": ["frodo", "bilbo", "gandalf"]},
+      {"characters": ["sam"], "locationId": "hobbiton", "date": "1421-10-06", "summary": "샘은 메리, 피핀과 함께 돌아와 저녁 불빛이 켜진 집으로 들어선다. 로지와 엘라노르가 기다리는 따뜻한 일상으로 돌아온다."}
+    ]
+  }
+]

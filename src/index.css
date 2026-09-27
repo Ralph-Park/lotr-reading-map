@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Gowun+Dodum&family=Patrick+Hand&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Gowun Dodum', 'Apple SD Gothic Neo', system-ui, sans-serif;
+  --font-display: 'Patrick Hand', 'Gaegu', 'Gowun Dodum', cursive;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  overscroll-behavior: none;
+}
+
+body {
+  background: #f6efdc;
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.map-region-label {
+  font-family: 'Patrick Hand', cursive;
+  letter-spacing: 0.08em;
+  opacity: 0.85;
+  pointer-events: none;
+}
+text.map-region-label.cursor-pointer {
+  pointer-events: auto;
+  transition: opacity 0.15s;
+}
+text.map-region-label.cursor-pointer:hover,
+.map-region-label-selected {
+  opacity: 1;
+  paint-order: stroke;
+  stroke: #fffaf0;
+  stroke-width: 4px;
+  stroke-linejoin: round;
+}
+
+.map-label {
+  font-family: 'Patrick Hand', cursive;
+  fill: #4f4233;
+  paint-order: stroke;
+  stroke: #fffaf0;
+  stroke-width: 3.5px;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+
+.map-label-hl {
+  fill: #7a4a0c;
+  font-weight: 700;
+}
+
+.token-text {
+  font-family: 'Gowun Dodum', system-ui, sans-serif;
+  pointer-events: none;
+}
+
+.hl-pulse {
+  animation: pulse 1.8s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+  opacity: 0.55;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(0.85); opacity: 0.6; }
+  50% { transform: scale(1.1); opacity: 0.3; }
+}
+
+.picker-select {
+  border-radius: 9999px;
+  border: 2px solid #d9c7a6;
+  background: #fff;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.85rem;
+  outline: none;
+}
+.picker-select:focus { border-color: #e0a84a; }
+
+.nav-btn {
+  border-radius: 9999px;
+  border: 2px solid #d9c7a6;
+  background: #fff3d6;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #6b5a48;
+  transition: transform 0.1s;
+}
+.nav-btn:hover:not(:disabled) { background: #ffe8b0; }
+.nav-btn:active:not(:disabled) { transform: scale(0.95); }
+.nav-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.panel-scroll { scrollbar-width: thin; scrollbar-color: #d9c7a6 transparent; }
+
+@media (prefers-reduced-motion: reduce) {
+  .hl-pulse { animation: none; }
+}
+
+.token-name {
+  font-family: 'Gowun Dodum', system-ui, sans-serif;
+  fill: #3d3228;
+  paint-order: stroke;
+  stroke: #ffffff;
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+
+.popup-in { animation: popup-in 0.16s ease-out; }
+@keyframes popup-in {
+  from { opacity: 0; transform: translateY(4px) scale(0.97); }
+  to { opacity: 1; transform: none; }
+}
